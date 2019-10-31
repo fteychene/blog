@@ -8,6 +8,7 @@ auto-save-list
 tramp
 .\#*
 
+.jekyll-cache/
 _site/
 .sass-cache/
 *.swp
