@@ -231,6 +231,13 @@ a {
     }
 }
 
+.container {
+    @media (min-width: 1920px)
+    {
+        width: 1700px;
+    }
+}
+
 .content-section {
     margin-top: 100px;
     padding-top: 100px;
@@ -238,6 +245,7 @@ a {
         margin-top: 125px;
         padding-top: 125px;
     }
+
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
         display: block;
