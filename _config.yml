@@ -205,7 +205,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
-  References: 'references'
+  Talks: 'references'
 
 # Exclusion list from the generated _site
 
