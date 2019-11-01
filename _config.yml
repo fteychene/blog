@@ -132,23 +132,26 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/elastic.png"
-    date: "September 2019 - Today"
+    date: "September 2019"
     description: "Software engineer @ Elastic"
   - image: "/img/timeline/saagie.png"
-    date: "Avril 2018 - September 2019"
+    date: "Avril 2018"
     description: "Tech lead cloud @ Saagie"
   - image: "/img/timeline/sunnytech.svg"
     date: "September 2018"
     description: "Organizer Sunny Tech"
   - image: "/img/timeline/tabmo.jpg"
-    date: "September 2017 - Avril 2018"
+    date: "September 2017"
     description: "Lead DevOps @ TabMo"
   - image: "/img/timeline/mth.png"
     date: "September 2017"
     description: "Chairman Montpellier Tech Hub"
   - image: "/img/timeline/beop.png"
-    date: "September 2016 - September 2017"
-    description: "Developer @ BeOp"
+    date: "September 2016"
+    description: "DevOps & Backend developer @ BeOp"
+  - image: "/img/timeline/dots.png"
+    date: "2010"
+    description: "Developer @ various employers"
 
 # First image of the Timeline
 
