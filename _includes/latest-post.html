@@ -20,7 +20,10 @@
         </h4>
 
         <section class="text-justify">
-          {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
+            {{ post.content | split:site.post-preview-break | first }}
+            {% if post.content contains site.post-preview-break %}
+               <div class="text-center" style="margin-bottom: 1em;"><a href="{{ post.url }}">read more</a></div>
+          {% endif %}
         </section>
 
         <h4><a href="{{site.baseurl}}/blog/">See all posts</a></h4>

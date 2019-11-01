@@ -6,6 +6,11 @@ This site use [`{ Personal } Jekyll Theme for Jekyll`](https://github.com/le4ker
 
 ## Usage
 
+To create an article push a new file in `_posts` folder.  
+The file should have the `YYY-MM-DD_name.md` pattern.
+
+All the content until a `<!--break-->` ill be printed on index if it's the latest post.
+
 ### How to run locally
 
 First, you need to install jekyll and the dependencies of { Personal } by running:
