@@ -15,7 +15,8 @@ jobs:
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
     - name: Deploy site
-      uses: maxheld83/ghpages@v0.2.1
-      env:
-        BUILD_DIR: _site
-        GH_PAT: ${{ secrets.GH_PAT }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        publish_dir: ./_site
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        cname: www.fteychene.xyz
