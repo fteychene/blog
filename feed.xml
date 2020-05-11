@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>fteychene blog</title>
+		<description>Blog and website of Francois Teychene. Opinions expressed are mine.</description>
+		<link>https://www.fteychene.xyz</link>
+		<atom:link href="https://www.fteychene.xyz/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Welcome on my blog</title>
+				
+				
+					<description>&lt;p&gt;This is the first blog post of this site.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 31 Oct 2019 00:00:00 -0500</pubDate>
+				<link>https://www.fteychene.xyz/misc/2019/10/31/welcome.html</link>
+				<guid isPermaLink="true">https://www.fteychene.xyz/misc/2019/10/31/welcome.html</guid>
+			</item>
+		
+			<item>
+				<title>Post reminder</title>
+				
+				
+					<description>&lt;h1 id=&quot;post-reminder&quot;&gt;Post reminder&lt;/h1&gt;
+</description>
+				
+				<pubDate>Thu, 31 Oct 2019 00:00:00 -0500</pubDate>
+				<link>https://www.fteychene.xyz/misc/2019/10/31/post_reminder.html</link>
+				<guid isPermaLink="true">https://www.fteychene.xyz/misc/2019/10/31/post_reminder.html</guid>
+			</item>
+		
+	</channel>
+</rss>
