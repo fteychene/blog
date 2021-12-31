@@ -131,6 +131,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/startree.png"
+    date: "July 2021"
+    description: "Cloud engineer @ Startree"
   - image: "/img/timeline/elastic.png"
     date: "September 2019"
     description: "Software engineer @ Elastic"
